@@ -6,6 +6,12 @@ header {
   justify-content: space-between;
 }
 
+.marquee {
+  margin-top: 10px;
+  color: rgb(0, 51, 255);
+  font-weight: bold;
+}
+
 /* First section */
 
 .first-section {

@@ -1,0 +1,72 @@
+.footer-design {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(83, 189, 255);
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.first-section1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.first-section-para {
+  color: rgb(238, 238, 238);
+}
+
+.first-section1 h2 {
+  color: white;
+}
+
+.first-section1 img {
+  all:unset;
+  height: 50px;
+  align-items: center;
+  margin-right: 8px;
+  color: white;
+  display: block;
+}
+
+.about-school {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.about-school button {
+  border: none;
+  background: transparent;
+  color: rgb(244, 244, 244);
+  margin-top: 20px;
+}
+
+.keep-touch {
+  color: white;
+}
+
+.keep-touch img {
+  margin-right: 5px;
+  margin-top: 20px;
+  color: white;
+  height: 24px;
+}
+
+@media screen and (max-width:756px) {
+  .footer-design {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-school {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+}
