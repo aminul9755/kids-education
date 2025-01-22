@@ -15,7 +15,8 @@ header {
 }
 
 .first-section-title,
-.hero-details {
+.hero-details,
+.curriculum-section {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;

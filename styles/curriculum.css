@@ -1,0 +1,100 @@
+
+.curriculum-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.curriculum-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.curriculum-level {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.little-children {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #a9b9ff, #ffffff);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.elementary-children {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #cbffc3, #ffffff);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.middle-children {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #fff59c, #ffffff);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.children-para {
+  text-align: center;
+}
+
+.read-more1 {
+  color: rgb(255, 157, 0);
+}
+
+.read-more2 {
+  color: green;
+}
+
+.read-more3 {
+  color: red;
+}
+
+.arrow-btn{
+  border: none;
+  background: transparent;
+}
+
+.arrow-btn img {
+  height: 30px;
+}
+
+@media screen and (max-width: 756px) {
+  .curriculum-section{
+    flex-direction: column;
+  }
+
+  .curriculum-level {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

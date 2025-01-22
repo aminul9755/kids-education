@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/curriculum.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -41,9 +43,47 @@
         <img src="assets/hero-kids.png">
       </div>
     </div>
+
+    <div class="curriculum-section">
+      <div class="curriculum-title">Standard Curriculum</div>
+      <div class="curriculum-level">
+        <div class="little-children">
+          <img src="assets/kinder.png">
+          <h4>Children (3-6) Years</h4>
+          <p class="children-para">For this age children we have a high opprtunity. Nulla quasi vel, assumenda animi cum voluptate delectus eveniet perferendis illum iusto.</p>
+          <p class="read-more1">Read More</p>
+        </div>
+        <div class="elementary-children">
+          <img src="assets/elementary.png">
+          <h4>Elementary School</h4>
+          <p class="children-para">Elementary level is the second level of our curriculum for education. Nulla quasi vel, assumenda animi cum voluptate delectus eveniet perferendis illum iusto.</p>
+          <p class="read-more2">Read More</p>
+        </div>
+        <div class="middle-children">
+          <img src="assets/middle.png">
+          <h4>Middle (10-16) Years</h4>
+          <p class="children-para">Children with this are smarter then previous group. Nulla quasi vel, assumenda animi cum voluptate delectus eveniet perferendis illum iusto.</p>
+          <p class="read-more3">Read More</p>
+        </div>
+      </div>
+      <div>
+        <button class="arrow-btn">
+          <img src="assets/less.png">
+        </button>
+        <button class="arrow-btn">
+          <img src="assets/greater.png">
+        </button>
+      </div>
+    </div>
+
   </main>
   <footer>
 
   </footer>
+  <script>
+    $(document).ready(function(){
+      $('html, body').animate({ scrollTop: $(document).height() }, 'fast');
+    });
+  </script>
 </body>
 </html>
