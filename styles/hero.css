@@ -28,7 +28,8 @@
   margin-bottom: 15px;
 }
 
-.enroll-btn {
+.enroll-btn,
+.view-all {
   width: 120px;
   height: 40px;
   background-color: rgb(4, 169, 23);
@@ -37,7 +38,8 @@
   border-radius: 8px;
 }
 
-.enroll-btn:hover {
+.enroll-btn:hover,
+.view-all:hover {
   background-color: rgb(39, 65, 0);
 }
 
